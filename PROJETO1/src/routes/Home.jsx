@@ -1,9 +1,10 @@
 import { HomeStyle } from "../css/HomeStyle"
+import imgHome from '../assets/img-home.jpg'
 
 const Home=()=>{
     return(
         <HomeStyle>
-            <h1>olha aqui a home</h1>
+            <img src={imgHome} alt="Homem levantando barra" id="Img-fundo"/>
         </HomeStyle>
     )
 }
