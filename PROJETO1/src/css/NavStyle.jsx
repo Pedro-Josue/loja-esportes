@@ -3,11 +3,13 @@ import styled from 'styled-components'
 export const NavStyle =styled.section `
 
 .nav{
+    list-style: none;
     display: flex;
     justify-content: center;
     width: 100%;
     gap: 1rem;
     background-color: #c7c7c7;
+    
 }
 .navlink{
     font-size:1rem;

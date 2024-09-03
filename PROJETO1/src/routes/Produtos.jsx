@@ -1,7 +1,7 @@
 const Produtos=()=>{
     return(
         <>
-        
+        <p>halter</p>
         </>
     )
 }
