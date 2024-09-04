@@ -13,6 +13,7 @@ const Home=()=>{
                 </div>
                 <img src={imgHome} alt="Homem levantando barra" id="img-fundo"/>
             </div>
+            
         </HomeStyle>
     )
 }
