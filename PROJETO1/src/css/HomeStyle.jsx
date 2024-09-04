@@ -58,4 +58,14 @@ export const HomeStyle = styled.section `
     gap: 1%;
     font-family: 'Roboto', sans-serif;
 }
+
+.icons{
+    display: flex;
+    gap: 5rem;
+    margin-top: 5%;
+}
+
+.icons img{
+    height: 80px;
+}
 `
