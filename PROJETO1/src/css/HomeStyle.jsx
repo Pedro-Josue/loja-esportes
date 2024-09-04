@@ -29,20 +29,33 @@ export const HomeStyle = styled.section `
     box-sizing: border-box;
     color: white;
     z-index: 1;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-home button{
     border-radius: 15px;
-    border: none;
+    border: 50px;
     height: 35px;
-    width: 150px;
+    width: 200px;
     background-color:#c7c7c7;
     cursor: pointer;
+}
+
+.home h1{
+    font-size: 400%;
+    text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+.home h3{
+    font-size: 150%;
+    text-shadow: black 0.2em 0.2em 0.2em;
+    margin-bottom: 7%;
 }
 
 .btn-home{
     display: flex;
     justify-content: center;
     gap: 1%;
+    font-family: 'Roboto', sans-serif;
 }
 `

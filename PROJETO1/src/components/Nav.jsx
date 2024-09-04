@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import { NavStyle } from '../css/NavStyle'
-import logo from '../assets/IconeLoja.png'
+import logo from '../assets/iconeLoja.svg'
 
 // importando o link do react-router-dom, para conseguir criar as rotas na navbar
 const Nav=()=>{
