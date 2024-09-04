@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 export const HomeStyle = styled.section `
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 #img-fundo{
     width: 100%;
     height: 100vh;
