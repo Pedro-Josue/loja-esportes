@@ -16,10 +16,22 @@ const Home=()=>{
                     <button>Entrar</button>
                 </div>
                 <div className="icons">
-                    <img src={futIcon} alt="icone bola de futebol" />
-                    <img src={basqueteIcon} alt="icone bola de basquete" />
-                    <img src={voleiIcon} alt="icone bola de volei" />
-                    <img src={corredorIcon} alt="icone de corredor" />
+                    <div className="icon-wrapper">
+                        <img src={futIcon} alt="icone bola de futebol" />
+                        <div className="icon-texto">Futebol</div>
+                    </div>
+                    <div className="icon-wrapper">
+                        <img src={basqueteIcon} alt="icone bola de basquete" />
+                        <div className="icon-texto">Basquete</div>
+                    </div>
+                    <div className="icon-wrapper">
+                        <img src={voleiIcon} alt="icone bola de volei" />
+                        <div className="icon-texto">Vôlei</div>
+                    </div>
+                    <div className="icon-wrapper">
+                        <img src={corredorIcon} alt="icone de corredor" />
+                        <div className="icon-texto">Corrida</div>
+                    </div>
                 </div>
                 <img src={imgHome} alt="Homem levantando barra" id="img-fundo"/>
             </div>
