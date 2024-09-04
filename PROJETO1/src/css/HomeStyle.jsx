@@ -35,10 +35,13 @@ export const HomeStyle = styled.section `
 .btn-home button{
     border-radius: 15px;
     border: 50px;
-    height: 35px;
+    height: 40px;
     width: 200px;
     background-color: orange;
+    color: white;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
 }
 
 .home h1{
@@ -56,8 +59,7 @@ export const HomeStyle = styled.section `
 .btn-home{
     display: flex;
     justify-content: center;
-    gap: 1%;
-    font-family: 'Roboto', sans-serif;
+    gap: 10%;
 }
 
 .icons {
@@ -73,8 +75,9 @@ export const HomeStyle = styled.section `
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; /* Alinha o texto abaixo do ícone */
+    flex-direction: column;
     transition: transform 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 }
 
 .icons .icon-wrapper::before {
@@ -115,6 +118,7 @@ export const HomeStyle = styled.section `
     z-index: 1;
     font-family: 'Roboto', sans-serif;
     text-shadow: black 0.1em 0.1em 0.1em;
+    font-family: 'Roboto', sans-serif;
 }
 
 `
