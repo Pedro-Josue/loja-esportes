@@ -8,7 +8,8 @@ export const NavStyle =styled.section `
     justify-content: space-between;
     background-color: #c7c7c7;
     padding: 10px;
-    width: 100%;
+    position: relative;
+    z-index: 1000;
 }
 
 #logo-nav {
