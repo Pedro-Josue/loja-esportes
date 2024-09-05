@@ -1,3 +1,5 @@
+import { ProdutosStyle } from "../css/ProdutosStyle"
+
 const Produtos=()=>{
     return(
         <>
