@@ -30,7 +30,7 @@ const Contato=()=>{
                 <h4>Ou fale com a gente pessoalmente!</h4>
                 <p>Estamos nesse endereço</p>
                 <p>Av. Paulista 16xx - Bela Vista</p>
-                <p>horario de funcionamento:</p>
+                <p>Horário de funcionamento:</p>
                 <ul>
                     <li>Segunda a Sexta: 06:00 às 22:00</li>
                     <li>Sábado e Domingo: 08:00 às 14:00</li>

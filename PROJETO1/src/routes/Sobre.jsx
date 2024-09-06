@@ -64,10 +64,6 @@ const Sobre = () => {
             <input type="email" placeholder="Digite seu e-mail" />
             <button>ENVIAR</button>
           </div>
-          <div className="redessociais">
-            <h3>Contato</h3>
-            <p>Duvidas +55 4002-8922</p>
-          </div>
         </div>
       </div>
 
