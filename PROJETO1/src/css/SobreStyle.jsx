@@ -28,6 +28,8 @@ export const SobreStyle = styled.section`
 
   .galeria-de-fotos {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
     margin-bottom: 4rem;
   }
