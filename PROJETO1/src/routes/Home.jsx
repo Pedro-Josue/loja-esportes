@@ -17,7 +17,7 @@ const Home=()=>{
                 </div>
                 <div className="icons">
                     <div className="icon-wrapper">
-                        <img src={futIcon} alt="icone bola de futebol" />
+                        <img id='bola-fut' src={futIcon} alt="icone bola de futebol" />
                         <div className="icon-texto">Futebol</div>
                     </div>
                     <div className="icon-wrapper">

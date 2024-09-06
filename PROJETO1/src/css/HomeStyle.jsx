@@ -70,7 +70,8 @@ export const HomeStyle = styled.section `
 
 .icons {
     display: flex;
-    gap: 5rem;
+    justify-content: center;
+    gap: 8rem;
     margin-top: 8%;
 }
 
@@ -92,7 +93,7 @@ export const HomeStyle = styled.section `
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: black;
+    background-color: transparent;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -101,7 +102,7 @@ export const HomeStyle = styled.section `
 }
 
 .icons .icon-wrapper:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .icons .icon-wrapper:hover::before {
@@ -109,11 +110,15 @@ export const HomeStyle = styled.section `
 }
 
 .icons img {
-    height: 80px;
+    height: 100px;
     cursor: pointer;
     position: relative;
     z-index: 1; 
 }
+
+#bola-fut{
+    height: 120px;
+} 
 
 .icons .icon-texto {
     position: absolute;
