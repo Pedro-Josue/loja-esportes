@@ -13,7 +13,7 @@ const Home=()=>{
                 <h3>Encontre as melhores ofertas de produtos e equipamentos esportivos com frete grátis para todo o Brasil!</h3>
                 <div className="btn-home">
                     <button>Crie uma conta</button>
-                    <button>Entrar</button>
+                    <button id="btn-entrar">Entrar</button>
                 </div>
                 <div className="icons">
                     <div className="icon-wrapper">

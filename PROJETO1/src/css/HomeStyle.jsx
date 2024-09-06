@@ -62,6 +62,12 @@ export const HomeStyle = styled.section `
     gap: 10%;
 }
 
+#btn-entrar{
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+}
+
 .icons {
     display: flex;
     gap: 5rem;
@@ -86,7 +92,7 @@ export const HomeStyle = styled.section `
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #ff9f1c;
+    background-color: black;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
