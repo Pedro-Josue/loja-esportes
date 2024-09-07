@@ -1,27 +1,9 @@
-import styled from "styled-components";
-
-export const ProdutosStyle = styled.section `
-
-
-#h1_categorias{
-    padding: 2%;
-    text-align: center;
-
-
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
 }
-
-.container_principal{
-
-    display: flex;
-   
-    justify-content: space-around;
-    flex-direction: column;
-    gap: 4rem;
-    padding: 5%;
-}
-
-
 
 .container {
     display: flex;
@@ -68,7 +50,3 @@ export const ProdutosStyle = styled.section `
     font-size: 14px;
     color: #555;
 }
-
-
-    
-`

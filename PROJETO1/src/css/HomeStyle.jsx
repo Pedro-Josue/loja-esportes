@@ -37,13 +37,17 @@ export const HomeStyle = styled.section `
 .btn-home button{
     border-radius: 15px;
     border: 50px;
-    height: 35px;
+    height: 40px;
     width: 200px;
-    background-color:#c7c7c7;
+    background-color: orange;
+    color: white;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
 }
 
 .home h1{
+    margin-top: 7%;
     font-size: 400%;
     text-shadow: black 0.2em 0.2em 0.2em;
 }
@@ -57,7 +61,66 @@ export const HomeStyle = styled.section `
 .btn-home{
     display: flex;
     justify-content: center;
-    gap: 1%;
+    gap: 10%;
+}
+
+.icons {
+    display: flex;
+    gap: 5rem;
+    margin-top: 8%;
+}
+
+.icons .icon-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: transform 0.3s ease;
     font-family: 'Roboto', sans-serif;
 }
+
+.icons .icon-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ff9f1c;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    transition: transform 0.3s ease; 
+}
+
+.icons .icon-wrapper:hover {
+    transform: scale(1.1);
+}
+
+.icons .icon-wrapper:hover::before {
+    transform: translate(-50%, -50%) scale(1.15);
+}
+
+.icons img {
+    height: 80px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1; 
+}
+
+.icons .icon-texto {
+    position: absolute;
+    bottom: -30px;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    font-family: 'Roboto', sans-serif;
+}
+
 `
