@@ -7,6 +7,8 @@ export const HomeStyle = styled.section `
     font-style: normal;
 }
 
+
+
 #img-fundo{
     width: 100%;
     height: 100vh;
